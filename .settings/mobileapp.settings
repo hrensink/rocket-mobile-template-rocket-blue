@@ -1,0 +1,11 @@
+GenerateApplicationBundle = false
+RMABVersion = 7.4.0.3599
+ApplicationBundle = com.rs.template.rocketblue
+ApplicationTitle = Rocket Blue Template
+ApplicationVendor = com.rs.template
+ApplicationIdentity = 991177f8-62b7-498c-8800-bdcb7aaa399A
+LicenseManagers = {"activeLicenseManager":"Development","licenseManagers":{"Production":"https://rsmob.rocketsoftware.com/internal","Development":"http://dor-vm-0091:8080/centipede_latest"}}
+RequireUserCredentials = false
+CameraPermission = false
+AutoIncrementVersion = true
+ApplicationVersion = 1.0.1

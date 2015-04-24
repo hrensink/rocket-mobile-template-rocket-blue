@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" exeVersion="1.0.0.201504200934" modelVersion="1.0" ?>
+<page_set>
+   <DeviceType>6</DeviceType>
+   <DefaultPage>main</DefaultPage>
+   <DefaultPageTemplate/>
+   <Theme>ios(Themes/blue.css)</Theme>
+</page_set>

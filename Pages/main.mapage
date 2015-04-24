@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" exeVersion="1.0.0.201504210616" modelVersion="1.0" ?>
+<page>
+   <id>main</id>
+   <title>${App.ApplicationTitle}</title>
+   <backgroundColor>20</backgroundColor>
+   <backbutton value="true">
+      <id>backbutton1</id>
+      <icon>Resources/settings.png</icon>
+      <handlers>
+         <event
+               desc="backbutton1_OnBack"
+               name="back">
+            <handler>
+               <action
+                     target="MenuDrawer"
+                     type="WIDGET_SHOW"/>
+            </handler>
+         </event>
+      </handlers>
+   </backbutton>
+   <controls>
+      <Drawer>
+         <id>MenuDrawer</id>
+         <customCssClass>rmc-drawer</customCssClass>
+         <controls>
+            <Button>
+               <id>AboutButton</id>
+               <label>About</label>
+               <customCssClass/>
+               <marginCustom value="true">
+                  <marginTop>4</marginTop>
+               </marginCustom>
+               <handlers>
+                  <event
+                        desc="AboutButton_OnTap"
+                        name="tap">
+                     <handler>
+                        <action
+                              alertType="Info"
+                              message="This app was created with&#x0D;&#x0A;Rocket Mobile"
+                              notificationType="Alert"
+                              resultVariable=""
+                              title="About this App"
+                              type="SHOW_NOTIFICATION">
+                           <notificationButtons>
+                              <notificationButton>OK</notificationButton>
+                           </notificationButtons>
+                        </action>
+                     </handler>
+                  </event>
+               </handlers>
+            </Button>
+         </controls>
+         <size>35</size>
+         <transitionDuration>200</transitionDuration>
+         <transparency>10</transparency>
+      </Drawer>
+   </controls>
+   <handlers/>
+</page>

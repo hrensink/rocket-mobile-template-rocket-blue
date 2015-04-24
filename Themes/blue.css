@@ -1,0 +1,398 @@
+/* This is an invisible group containing all controls */
+.group {
+	padding: 10px 10px 10px 10px;
+}
+
+/* This is the bar at the top of the page */
+.navigationbar {
+	background-color: #6d84b4;
+	color: #ffffff;
+	height: 44px;
+}
+
+.navigationbar>.label {
+	height: 1.5rem;
+	line-height: 1.5rem
+}
+
+.navigationbar-button, .navigationbar-backbutton {
+	background-color: #6d84b4;
+	color: #ffffff;
+	height: 2rem;
+	margin-top: 0.5rem;
+}
+
+/* No blue background when selecting */
+.navigationbar-button:active, .navigationbar-backbutton:active {
+	background-color: #6d84b4;
+	/* 0px does show */
+	border-width: 0px 0px 0px 0px;
+	border-color: #3b5998;
+}
+
+.navigationbar-button, .navigationbar-backbutton {
+	padding-bottom: 11px;
+}
+
+/* Shared options for all buttons */
+.rmc-button, .rmc-button-solid, .rmc-button-white {
+	background-color: #6d84b4;
+	color: #ffffff;
+	text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+	/* rounded borders */
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	/* 0px does show */
+	border-width: 0px 0px 0px 0px;
+	border-color: #3b5998;
+	-webkit-box-sizing: border-box;
+	line-height: auto;
+	/* display: inline-block; */
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+	height: auto;
+
+	/*  overflow: hidden; */
+}
+
+/* No blue background when selecting */
+.rmc-button:active {
+	background-color: #3b5998;
+	/* 0px does show */
+	border-width: 0px 0px 0px 0px;
+	border-color: #3b5998;
+}
+
+.rmc-button-solid {
+	background-color: #6d84b4;
+	color: #ffffff;
+	/* 0px does show */
+	border-color: #3b5998;
+}
+
+/* No blue background when selecting */
+.rmc-button-solid:active {
+	background-color: #3b5998;
+	/* 0px does show */
+	border-width: 0px 0px 0px 0px;
+	border-color: #3b5998;
+}
+
+.rmc-button-white {
+	background-color: rgb(246, 247, 248);
+	color: rgb(78, 86, 101);
+	/* 0px does show */
+	border-color: #3b5998;
+}
+
+/* No blue background when selecting */
+.rmc-button-white:active {
+	/* Darker grey */
+	background-color: #D2D2D2;
+	/* 0px does show */
+	border-width: 0px 0px 0px 0px;
+	border-color: #3b5998;
+	/* Keep font color the same */
+	color: rgb(78, 86, 101);
+}
+
+/* Titles and headings */
+.rmc-label, .rmc-title {
+	color: rgb(87, 107, 149); */
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.rmc-title {
+	font-size: 18px;
+	font-style: bold;
+	line-height: 22px;
+}
+
+/*** input ***/
+.mobile input:focus {
+	-webkit-box-shadow: 0 0 0.125rem 0.0625rem #3b5998;
+	-moz-box-shadow: 0 0 0.125rem 0.0625rem #3b5998;
+	box-shadow: 0 0 0.125rem 0.0625rem #3b5998;
+}
+
+/* Base definition for a text field  */
+.rmc-textfield, .rmc-textarea, .rmc-passwordfield {
+	background-color: #ffffff;
+	border-color: #3b5998;
+	color: #000000;
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+/* Base definition for a text area  */
+.rmc-textarea {
+	
+}
+
+/* When a text field is active  */
+.rmc-textfield:active, .rmc-textarea:active {
+	
+}
+
+/* When a text field or text area is hovered over  */
+.rmc-textfield:hover, .rmc-textarea:hover {
+	
+}
+
+/*** images ***/
+.rmc-image {
+	
+}
+
+.rmc-barchart {
+	
+}
+
+.rmc-checkbox, .checkbox {
+	height: 26px;
+	width: 26px;
+}
+
+.rmc-checkbox:after, .checkbox:after {
+	border-color: #3b5998;
+}
+
+.rmc-datepicker {
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.rmc-doughnutchart {
+}
+
+.rmc-grid {
+	
+}
+
+.rmc-linechart {
+	
+}
+
+/* list */
+.rmc-list {
+}
+
+.list-item-title {
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+}
+
+.list-item-subtitle {
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 12px;
+	color: #3b5998;
+}
+
+/* No blue background when selecting */
+.list-item:active {
+	background-color: #6d84b4;
+}
+
+/* map */
+.rmc-map {
+	
+}
+
+.rmc-passwordfield {
+	
+}
+
+.rmc-picker {
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.rmc-piechart {
+	
+}
+
+.rmc-polarchart {
+	
+}
+
+.rmc-radarchart {
+	
+}
+
+/* radiobutton */
+.radio {
+	height: 26px;
+	width: 26px;
+}
+
+.rmc-radiobutton {
+	
+}
+
+.rmc-radiobutton:after, .radio:after {
+	background-color: #3b5998;
+	height: 12px;
+	width: 12px;
+	margin-top: -6px;
+	margin-left: -6px;
+}
+
+/* select box */
+.rmc-selectbox {
+	color: #000000;
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.rmc-selectbox:active {
+	background-color: #d8dfea;
+}
+
+.selectbox-selected:hover {
+	background-color: #3b5998;
+}
+
+.selectbox-selected:active {
+	background-color: #3b5998;
+}
+
+.selectbox-selected {
+	background-color: #6d84b4;
+}
+
+.selectbox-unselected:hover {
+	background-color: #3b5998;
+}
+
+.selectbox-unselected:active {
+	background-color: white;
+}
+
+.selectbox-unselected {
+	background-color: white;
+}
+
+.menu {
+	border-color: #d5d5d5;
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0 0 0 0;
+}
+
+/* slider */
+.rmc-slider {
+}
+
+.slider>div {
+	background-color: #3b5998;
+}
+
+.slider>div:after {
+	height: 26px;
+	top: -11px;
+	width: 26px;
+}
+
+/* Toggle button */
+.rmc-toggle {
+}
+
+.togglebutton {
+	height: 26px;
+	line-height: 26px;
+	width: 75px;
+	/* change the background color of the switch */
+	background-color: white;
+}
+
+.togglebutton-switch {
+	height: 26px;
+	width: 26px;
+	/* change the color of the 'ball' */
+	background-color: white;
+}
+
+.togglebutton.checked {
+	background-color: #6d84b4;
+}
+
+/* change the color of the switches */
+.togglebutton.gap:before {
+	color: #3b5998;
+}
+
+/* change the color of only the ON switch */
+.togglebutton.gap.checked:before {
+	color: white;
+}
+
+.togglebutton:not (.checked ):before {
+	display: block;
+	content: " " attr(data-label-unchecked);
+	color: rgb(87, 107, 149);
+	margin-left: 1.8rem;
+	margin-right: 0.1875rem;
+	width: togglebutton-width;
+}
+
+/* C O N T A I N E R S */
+
+.rmc-carousel {
+}
+
+.rmc-vertical {
+}
+
+.rmc-horizontal {
+}
+
+.rmc-pane {
+}
+
+.rmc-form {
+}
+
+.mobileclient-formlayouttype-nolabel {
+}
+
+.rmc-drawer {
+}
+
+/* SKO15 */
+#MenuDrawer {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-box-shadow: none;
+
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	
+    font-family: 'RocketFont', Arial;
+    font-size: 0.8rem;
+    
+	width: 100%;
+	top: 57px;
+}
+
+.rmc-tabbar {
+	background-color: #3b5998;
+	height: 30px;
+}
+
+.rmc-toolbar {
+	background-color: #3b5998;
+	height: 30px;
+}
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" exeVersion="1.0.0.201504200934" modelVersion="1.0" ?>
+<page>
+   <id>Drawer</id>
+   <title>${App.ApplicationTitle}</title>
+   <controls>
+      <Drawer>
+         <id>Drawer1</id>
+         <orientation>Right</orientation>
+         <customCssClass>rmc-drawer</customCssClass>
+         <transitionDuration>200</transitionDuration>
+         <size>35</size>
+      </Drawer>
+   </controls>
+</page>
